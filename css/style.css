@@ -33,6 +33,7 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 ul,
 ol,
@@ -70,8 +71,8 @@ img {
 body {
   background-image: url(../images/bg/body_bg.jpg);
   background-repeat: no-repeat;
-  /* background-position: center; */
   background-size: cover;
+  overflow: hidden;
 }
 /* ============= common css end here ================ */
 nav {
@@ -93,6 +94,12 @@ nav {
 .main_menu {
   column-gap: 15px;
 }
+.menu_bars {
+  color: #05415b;
+}
+.navbar-toggler {
+  box-shadow: none !important;
+}
 .menu_item {
   font-family: var(--primary-font);
   font-weight: 600;
@@ -107,4 +114,8 @@ nav {
 }
 .menu_item:hover {
   color: #05415b;
+}
+.slider p{
+  font-size: 30px;
+  color: #fff;
 }
